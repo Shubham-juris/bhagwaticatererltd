@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaStarOfLife } from 'react-icons/fa';
-import Img from "../../../assets/AboutUs/OurMission.jpg";
-import PhilosophyImg from "../../../assets/AboutUs/Img2.jpg";
-import bgImg from "../../../assets/AboutUs/Img.jpg";
+import Img from "../../assets/AboutUs/OurMission.jpg";
+import PhilosophyImg from "../../assets/AboutUs/img2.jpg";
+import bgImg from "../../assets/AboutUs/Img.jpg";
 
 // Reusable Line with Stars Component
 const LineWithStars = ({ orientation = "vertical", height = "h-64", width = "w-1.5" }) => (

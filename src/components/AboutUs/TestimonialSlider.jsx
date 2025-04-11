@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaQuoteLeft } from 'react-icons/fa';
-import bgImg from "../../../assets/AboutUs/Img.jpg";
-import userImg from "../../../assets/AboutUs/Img.jpg";
+import bgImg from '../../assets/AboutUs/Img.jpg';
+import userImg from "../../assets/AboutUs/Img.jpg";
 
 const TestimonialSlider = () => {
   const testimonial = {
