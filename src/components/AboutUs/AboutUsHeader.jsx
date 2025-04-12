@@ -1,5 +1,5 @@
 import React from 'react';
-import BgImg from "../../assets/AboutUs/Img.jpg"; // Adjust the path as necessary
+import BgImg from "../../assets/AboutUs/Img.jpg"; 
 
 const AboutUsHeader = () => {
   return (
