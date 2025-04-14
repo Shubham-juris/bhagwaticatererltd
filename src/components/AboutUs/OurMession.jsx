@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaStarOfLife } from 'react-icons/fa';
 import Img from "../../assets/AboutUs/OurMission.jpg";
-import PhilosophyImg from "../../assets/AboutUs/img2.jpg";
 import bgImg from "../../assets/AboutUs/Img.jpg";
 
 // Reusable Line with Stars Component
@@ -36,11 +35,11 @@ const OurMission = () => {
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14">
           {/* Left Image */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-            <div className="w-72 sm:w-80 overflow-hidden shadow-lg rounded-full aspect-square">
+          <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg">
               <img
                 src={Img}
                 alt="Our Mission - Soup and clams dish"
-                className="w-full h-full object-cover"
+                className="w-full h-100 object-cover"
               />
             </div>
           </div>
@@ -104,11 +103,11 @@ const OurMission = () => {
 
           {/* Right Image */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-            <div className="w-72 sm:w-80 overflow-hidden rounded-full aspect-square">
+          <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg">
               <img
-                src={PhilosophyImg}
+                src={Img}
                 alt="Our Philosophy - Elegant restaurant"
-                className="w-full h-full object-cover"
+                className="w-full h-100 object-cover"
               />
             </div>
           </div>

@@ -60,11 +60,11 @@ const Contact = () => {
           </div>
 
           {/* Right Section - Image */}
-          <div className="rounded-[50%_50%_0_0] overflow-hidden shadow-lg">
+          <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg">
             <img
               src={img}
               alt="Cafe Interior"
-              className="w-full h-190 object-cover"
+              className="w-full h-120 object-cover"
             />
           </div>
         </div>
