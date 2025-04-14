@@ -2,7 +2,9 @@ import React from "react";
 import img from "../assets/menu/menu1.jpg";
 import img1 from "../assets/home/img1.jpg";
 import img2 from "../assets/home/img2.jpg";
-
+import img3 from "../assets/menu/Img11.avif";
+import MENUS from "../assets/restro/menu1.avif";
+import menu2 from "../assets/menu/menu2.avif";
 const MenuItem = ({ name, desc, price, badge }) => (
   <div className="mb-6">
     <div className="flex justify-between items-center">
@@ -146,12 +148,12 @@ const Ourmenu = () => {
 
           <div className="grid grid-cols-2 gap-4">
             <img
-              src={img2}
+              src={img3}
               alt="Dish 2"
               className="w-full h-[30rem] object-cover"
             />
             <img
-              src={img1}
+              src={menu2}
               alt="Dish 1"
               className="w-full h-[20rem] object-cover mt-20"
             />
@@ -198,7 +200,7 @@ const Ourmenu = () => {
               className="w-full h-[20rem] object-cover mt-20"
             />
             <img
-              src={img2}
+              src={MENUS}
               alt="Dish 2"
               className="w-full h-[30rem] object-cover"
             />

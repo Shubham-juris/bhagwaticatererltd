@@ -1,10 +1,11 @@
 import React from "react";
 import img from "../assets/home/img.jpg";
 import img1 from "../assets/home/img1.jpg";
-import img2 from "../assets/home/img2.jpg";
+import img2 from "../assets/home/img2.jpg";``
 import img4 from "../assets/home/img3.jpg";
 import img3 from "../assets/home/img4.jpg";
-
+import MENUS from "../assets/restro/menu1.avif";
+import img5 from "../assets/menu/menu2.avif";
 
 const Home = () => {
   return (
@@ -137,12 +138,12 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src={img2}
+                src={img5}
                 alt="Dish 2"
                 className="w-full h-120 object-cover"
               />
               <img
-                src={img1}
+                src={MENUS}
                 alt="Dish 1"
                 className="w-full h-80 object-cover mt-20"
               />

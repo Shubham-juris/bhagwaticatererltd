@@ -2,8 +2,9 @@ import React from 'react';
 import { FaStarOfLife } from 'react-icons/fa';
 import Img from "../../assets/AboutUs/OurMission.jpg";
 import bgImg from "../../assets/AboutUs/Img.jpg";
+import img2 from "../../assets/menu/menu2.avif";
 
-// Reusable Line with Stars Component
+
 const LineWithStars = ({ orientation = "vertical", height = "h-64", width = "w-1.5" }) => (
   <div className={`flex ${orientation === "vertical" ? "flex-col" : "flex-row"} items-center justify-center`}>
     <FaStarOfLife className="text-gray-500 mb-1" />
@@ -26,30 +27,30 @@ const OurMission = () => {
         backgroundPosition: 'center',
       }}
     >
-      {/* Overlay */}
+ 
       <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
 
       <div className="relative z-10 max-w-screen-xl mx-auto space-y-24">
 
-        {/* === Our Mission Section === */}
+     
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14">
-          {/* Left Image */}
+      
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-          <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg">
+            <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg max-w-[400px] w-full aspect-square">
               <img
                 src={Img}
                 alt="Our Mission - Soup and clams dish"
-                className="w-full h-100 object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
 
-          {/* Vertical Line */}
+          
           <div className="hidden md:flex">
             <LineWithStars height="h-120" width="w-1" />
           </div>
 
-          {/* Right Text */}
+     
           <div className="w-full md:w-1/2 space-y-4 text-center md:text-left">
             <p className="text-orange-500 uppercase tracking-wider text-sm">
               About Patiotime Cafe
@@ -71,11 +72,9 @@ const OurMission = () => {
           </div>
         </div>
 
-        
-
-        {/* === Our Philosophy Section === */}
+     
         <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-14">
-          {/* Left Text */}
+      
           <div className="w-full md:w-1/2 space-y-4 text-center md:text-left">
             <p className="text-orange-500 uppercase tracking-wider text-sm">
               Fabulous Taste Journey
@@ -96,18 +95,18 @@ const OurMission = () => {
             </div>
           </div>
 
-          {/* Vertical Line */}
+     
           <div className="hidden md:flex">
             <LineWithStars height="h-120" width="w-1" />
           </div>
 
-          {/* Right Image */}
+          
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-          <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg">
+            <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg max-w-[400px] w-full aspect-square">
               <img
-                src={Img}
+                src={img2}
                 alt="Our Philosophy - Elegant restaurant"
-                className="w-full h-100 object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>

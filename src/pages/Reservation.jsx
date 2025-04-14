@@ -1,7 +1,8 @@
 import React from "react";
 import img from "../assets/restro/img1.jpg";
 import img1 from "../assets/home/img1.jpg";
-import img2 from "../assets/home/img2.jpg";
+import img2 from "../assets/menu/Img11.avif";
+import MENUS from "../assets/restro/menu1.avif";
  
 const Reservation = () => {
   return (
@@ -80,7 +81,7 @@ const Reservation = () => {
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div
             className="bg-cover bg-center h-64 relative"
-            style={{ backgroundImage: `url(${img})` }}
+            style={{ backgroundImage: `url(${MENUS})` }}
           >
             <div className="absolute inset-0 bg-opacity-60 flex items-end p-4">
               <div>
@@ -215,7 +216,7 @@ const Reservation = () => {
               className="w-full h-120 object-cover"
             />
             <img
-              src={img1}
+              src={MENUS}
               alt="Dish 1"
               className="w-full h-80 object-cover mt-20"
             />

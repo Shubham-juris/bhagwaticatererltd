@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/contact us/img.jpg";
+import img from "../assets/contact us/Img111.avif";
 
 const Contact = () => {
   return (
@@ -64,7 +64,7 @@ const Contact = () => {
             <img
               src={img}
               alt="Cafe Interior"
-              className="w-full h-120 object-cover"
+              className="w-full h-150 object-cover"
             />
           </div>
         </div>
