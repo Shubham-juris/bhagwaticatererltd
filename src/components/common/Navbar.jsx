@@ -10,7 +10,6 @@ const Navbar = () => {
   return (
     <div className="relative z-50">
       <nav className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-20 py-4 bg-black bg-opacity-40 text-white">
-        {/* Logo */}
         <div className="text-2xl font-bold">
           <a href="/">B.</a>
         </div>
@@ -38,14 +37,14 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a href="#contact" className="hover:text-orange-500">
+            <Link TO="#contact" className="hover:text-orange-500">
               CONTACT
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#news" className="hover:text-orange-500">
+            <Link TO="#news" className="hover:text-orange-500">
               LATEST NEWS
-            </a>
+            </Link>
           </li>
         </ul>
 
