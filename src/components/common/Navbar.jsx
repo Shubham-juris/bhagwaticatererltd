@@ -9,9 +9,9 @@ const Navbar = () => {
 
   return (
     <div className="relative z-50">
-      <nav className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-20 py-4 bg-black bg-opacity-40 text-white">
+      <nav className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-20 py-4  text-white">
         <div className="text-2xl font-bold">
-          <a href="/">B.</a>
+          <a className="hover:text-orange-300 text-orange-500" href="/">Bhagwati</a>
         </div>
 
         {/* Desktop Menu */}
