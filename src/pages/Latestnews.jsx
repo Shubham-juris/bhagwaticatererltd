@@ -1,0 +1,94 @@
+import React from "react";
+import img from "../assets/news/img.jpg";
+import img1 from "../assets/menu/menu1.jpg";
+import img4 from "../assets/home/img3.jpg";
+
+const Latestnews = () => {
+  const blogs = [
+    {
+      image: img,
+      date: "April 5, 2022",
+      category: "News, Recipes",
+      title: "Smoked Salmon Tart",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...",
+      link: "#",
+    },
+    {
+      image: img4,
+      date: "April 5, 2022",
+      category: "News, Recipes",
+      title: "Wonderful Eating Experience",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...",
+      link: "#",
+    },
+    {
+      image: img1,
+      date: "April 5, 2022",
+      category: "News, Recipes",
+      title: "Love and food: It is all about spice",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...",
+      link: "#",
+    },
+  ];
+
+  return (
+    <>
+      {/* Header Section */}
+      <section className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] xl:h-[60vh] overflow-hidden flex items-center justify-center">
+        <img
+          src={img}
+          alt="About Us background"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="relative z-10 px-4 text-center">
+          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold tracking-wide animate-fade-in">
+            Latest News
+          </h1>
+        </div>
+      </section>
+
+      {/* Blog Section */}
+      <section className="bg-black text-white py-16 px-6 md:px-12 lg:px-20">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+          {blogs.map((blog, idx) => (
+            <div
+              key={idx}
+              className="group transition-transform duration-300 hover:-translate-y-1"
+            >
+              <div className="overflow-hidden rounded-lg">
+                <img
+                  src={blog.image}
+                  alt={blog.title}
+                  className="w-full h-[260px] sm:h-[280px] md:h-[240px] lg:h-[260px] xl:h-[300px] object-cover rounded-lg group-hover:scale-105 transition duration-300"
+                />
+              </div>
+
+              <p className="text-sm text-gray-400 mt-4">
+                {blog.date} ·{" "}
+                <span className="text-orange-500">{blog.category}</span>
+              </p>
+              <h3 className="text-lg sm:text-xl font-semibold mt-2">
+                {blog.title}
+              </h3>
+              <p className="text-gray-300 text-sm mt-2 leading-relaxed">
+                {blog.description}
+              </p>
+              <a
+                href={blog.link}
+                className="text-orange-500 mt-3 inline-block border-b-2 border-orange-500 hover:text-orange-300 transition"
+              >
+                READ MORE →
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Latestnews;

@@ -2,7 +2,7 @@ import React from "react";
 import img from "../assets/restro/img1.jpg";
 import img1 from "../assets/home/img1.jpg";
 import img2 from "../assets/home/img2.jpg";
-
+ 
 const Reservation = () => {
   return (
     <>

@@ -37,12 +37,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link TO="#contact" className="hover:text-orange-500">
+            <Link to="/Contact" className="hover:text-orange-500">
               CONTACT
             </Link>
           </li>
           <li>
-            <Link TO="#news" className="hover:text-orange-500">
+            <Link to="/Latestnews" className="hover:text-orange-500">
               LATEST NEWS
             </Link>
           </li>
@@ -91,13 +91,13 @@ const Navbar = () => {
           >
             RESERVATION
           </a>
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             onClick={toggleMenu}
             className="hover:text-orange-500"
           >
             CONTACT
-          </a>
+          </Link>
           <a href="#news" onClick={toggleMenu} className="hover:text-orange-500">
             LATEST NEWS
           </a>
