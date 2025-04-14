@@ -59,7 +59,7 @@ const Contact = () => {
             </a>
           </div>
 
-          {/* Right Section - Image */}
+         
           <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg">
             <img
               src={img}
