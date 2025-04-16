@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
 import Ourmenu from '../pages/Ourmenu'
 import Reservation from '../pages/Reservation'
 import Contact from '../pages/Contact'
 import Latestnews from '../pages/Latestnews'
 import AboutUsPage from '../pages/AboutUsPage'
+import Home from '../pages/Home'
 
 
 const Pageroutes = () => {

@@ -67,7 +67,7 @@ const Ourmenu = () => {
   return (
     <>
       {/* Header Section */}
-      <section className="relative w-full h-[60vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden flex items-center justify-center">
+      <section className="relative w-full h-[40vh] sm:h-[50vh] lg:h-[60vh] xl:h-[60vh] overflow-hidden flex items-center justify-center">
         <img
           src={img}
           alt="Menu Background"
@@ -97,10 +97,12 @@ const Ourmenu = () => {
             />
           </div>
 
-          <div>
-            <h3 className="text-orange-500 text-3xl font-semibold mb-6 border-b-2 border-orange-500 inline-block pb-1">
-              STARTERS
+          <div>            
+            <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
+              <span>STARTERS</span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
             </h3>
+            
             <div className="space-y-6">
               <MenuItem
                 name="Purple Corn Tostada"
@@ -123,9 +125,10 @@ const Ourmenu = () => {
 
         {/* Beverages Section */}
         <div className="grid md:grid-cols-2 gap-10 mt-28">
-          <div>
-            <h3 className="text-orange-500 text-3xl font-semibold mb-6 border-b-2 border-orange-500 inline-block pb-1">
-              BEVERAGES
+          <div>            
+            <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
+              <span>BEVERAGES</span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
             </h3>
             <div className="space-y-6">
               <MenuItem
@@ -175,15 +178,17 @@ const Ourmenu = () => {
                 Seasonal Dishes
               </p>
               <h2 className="text-2xl font-bold">Fresh Salmon Tart</h2>
-              <button className="mt-2 text-sm text-orange-500 border-b-2 border-orange-500 hover:text-orange-300 transition duration-300">
-                Discover More
+              <button className="group relative text-orange-500 text-sm font-semibold mb-6 pb-1 inline-block">
+                <span>Discover More</span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
               </button>
             </div>
           </div>
 
-          <div>
-            <h3 className="text-orange-500 text-lg font-semibold uppercase mb-6">
-              Main Courses
+          <div>            
+            <h3 className="group relative text-orange-500 text-lg font-semibold mb-6 pb-1 inline-block">
+              <span>Main Courses</span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
             </h3>
             {mainCourses.map((item, idx) => (
               <MenuItem key={idx} {...item} />
@@ -207,8 +212,10 @@ const Ourmenu = () => {
           </div>
 
           <div>
-            <h3 className="text-orange-500 text-3xl font-semibold mb-6 border-b-2 border-orange-500 inline-block pb-1">
-              STARTERS
+            
+            <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
+              <span>STARTERS</span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
             </h3>
             <div className="space-y-6">
               <MenuItem

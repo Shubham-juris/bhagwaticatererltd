@@ -1,6 +1,7 @@
 import './App.css';
+import Footer from './components/common/Footer';
 import Navbar from './components/common/Navbar';
-import Footer from './components/Footer/Footer';
+
 import Pageroutes from './routes/Pageroutes';
 
 

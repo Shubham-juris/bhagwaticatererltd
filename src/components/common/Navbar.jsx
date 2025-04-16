@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react"; 
+import { Menu, X, Phone, Mail } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,13 +9,14 @@ const Navbar = () => {
 
   return (
     <div className="relative z-50">
-      <nav className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-20 py-4  text-white">
-        <div className="text-2xl font-bold">
-          <a className="hover:text-orange-300 text-orange-500" href="/">Bhagwati</a>
+      <nav className="absolute top-0 left-0 w-full z-20 flex justify-between items-center px-6 md:px-20 py-4 bg-black bg-opacity-90 text-white">
+        <div className="text-3xl font-bold py-3">
+          <a className="hover:text-orange-300 text-orange-500" href="/">
+            Bhagwati <span className="text-white">Caterer</span>
+          </a>
         </div>
 
-        {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 items-center text-sm">
+        <ul className="hidden md:flex gap-6 items-center text-md">
           <li>
             <Link to="/" className="hover:text-orange-500">
               HOME
@@ -32,7 +33,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="Reservation" className="hover:text-orange-500">
+            <Link to="/Reservation" className="hover:text-orange-500">
               RESERVATION
             </Link>
           </li>
@@ -48,19 +49,18 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Desktop Contact Info */}
-        <div className="hidden md:flex items-center gap-4 text-sm">
-          <span>+39-055-123456</span>
-          <span>booking@patiotime.com</span>
-          <a
-            href="#book"
-            className="border px-4 py-1 hover:bg-orange-600 transition"
-          >
-            FIND A TABLE
-          </a>
+        <div className="hidden md:flex items-center gap-6 text-md px-4 py-2 rounded-lg">
+          <div className="transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+            <a
+              href="tel:+39055123456"
+              className="inline-flex items-center gap-2 px-6 py-2 text-white rounded-lg bg-orange-500 hover:bg-orange-600 shadow-lg"
+            >
+              <Phone size={16} />
+              +39055123456
+            </a>
+          </div>
         </div>
 
-        {/* Hamburger Icon (Mobile Only) */}
         <div className="md:hidden">
           <button onClick={toggleMenu}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -68,9 +68,8 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="absolute  top-16 w-full bg-black bg-opacity-90 text-white px-6 py-4 flex flex-col space-y-4 text-sm md:hidden transition-all duration-300">
+        <div className="absolute top-20 w-full h-[60vh] overflow-y-auto bg-black bg-opacity-90 text-white px-6 py-4 flex flex-col space-y-4 text-sm md:hidden transition-all duration-300">
           <Link to="/" onClick={toggleMenu} className="hover:text-orange-500">
             HOME
           </Link>
@@ -81,16 +80,20 @@ const Navbar = () => {
           >
             ABOUT
           </Link>
-          <a href="#menu" onClick={toggleMenu} className="hover:text-orange-500">
+          <Link
+            to="/menu"
+            onClick={toggleMenu}
+            className="hover:text-orange-500"
+          >
             OUR MENU
-          </a>
-          <a
-            href="#reservation"
+          </Link>
+          <Link
+            to="/Reservation"
             onClick={toggleMenu}
             className="hover:text-orange-500"
           >
             RESERVATION
-          </a>
+          </Link>
           <Link
             to="/contact"
             onClick={toggleMenu}
@@ -98,19 +101,24 @@ const Navbar = () => {
           >
             CONTACT
           </Link>
-          <a href="#news" onClick={toggleMenu} className="hover:text-orange-500">
-            LATEST NEWS
-          </a>
-          <hr className="border-gray-700" />
-          <span>+39-055-123456</span>
-          <span>booking@patiotime.com</span>
-          <a
-            href="#book"
+          <Link
+            to="/Latestnews"
             onClick={toggleMenu}
-            className="border px-4 py-1 mt-2 hover:bg-orange-600 transition text-center"
+            className="hover:text-orange-500"
           >
-            FIND A TABLE
-          </a>
+            LATEST NEWS
+          </Link>
+          <hr className="border-gray-700" />
+
+          <div className="bg-orange-500 px-4 py-2 rounded-lg space-y-2">
+            <a
+              href="tel:+39055123456"
+              className="flex items-center gap-2 hover:underline"
+            >
+              <Phone size={16} />
+              +39-055-123456
+            </a>
+          </div>
         </div>
       )}
     </div>

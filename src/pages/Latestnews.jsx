@@ -79,9 +79,10 @@ const Latestnews = () => {
               </p>
               <a
                 href={blog.link}
-                className="text-orange-500 mt-3 inline-block border-b-2 border-orange-500 hover:text-orange-300 transition"
+                className="group relative text-orange-500 mt-3 inline-block font-medium transition"
               >
-                READ MORE →
+                <span>READ MORE →</span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
               </a>
             </div>
           ))}

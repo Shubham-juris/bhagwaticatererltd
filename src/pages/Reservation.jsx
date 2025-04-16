@@ -23,10 +23,10 @@ const Reservation = () => {
       </section>
       <div className="bg-black text-white px-4 md:px-20 py-16" id="reservation">
         <div className="text-center mb-12">
-          <p className="text-sm text-orange-500 uppercase">
+          <p className="text-sm py-2 text-orange-500 uppercase">
             Online Reservation
           </p>
-          <h2 className="text-4xl md:text-4xl font-bold mb-4">Book A Table</h2>
+          <h2 className="text-4xl md:text-4xl font-bold py-6">Book A Table</h2>
           <p className="text-sm text-gray-400 max-w-2xl mx-auto">
             Closed Sunday night, Monday & Tuesday. Due to the small amount of
             no-shows, all bookings must now be secured with a credit card which
@@ -139,8 +139,9 @@ const Reservation = () => {
           </div>
 
           <div>
-            <h3 className="text-orange-500 text-3xl font-semibold mb-6 border-b-2 border-orange-500 inline-block pb-1">
-              STARTERS
+            <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
+              <span>STARTERS</span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
             </h3>
             <div className="space-y-6">
               <div>
@@ -176,8 +177,10 @@ const Reservation = () => {
 
         <div className="grid md:grid-cols-2 gap-10 mt-30">
           <div>
-            <h3 className="text-orange-500 text-3xl font-semibold mb-6 border-b-2 border-orange-500 inline-block pb-1">
-              BEBERAGES
+           
+            <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
+              <span>BEVERAGES</span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
             </h3>
             <div className="space-y-6">
               <div>
