@@ -64,7 +64,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black text-white py-16 px-4 text-center md:px-20 lg:px-40 ">
+      <div className="bg-black text-white py-16 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
           <div>
             <p className="text-orange-500 uppercase font-semibold">
