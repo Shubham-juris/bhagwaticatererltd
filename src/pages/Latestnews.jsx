@@ -11,7 +11,7 @@ const Latestnews = () => {
       category: "News, Recipes",
       title: "Smoked Salmon Tart",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...",
+        "Discover the rich flavors and delicate textures of our signature Smoked Salmon Tart — a perfect blend of freshness and gourmet flair.",
       link: "#",
     },
     {
@@ -20,7 +20,7 @@ const Latestnews = () => {
       category: "News, Recipes",
       title: "Wonderful Eating Experience",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...",
+        "Take your taste buds on a journey with a truly wonderful eating experience that combines ambiance, flavor, and passion in every bite.",
       link: "#",
     },
     {
@@ -29,10 +29,11 @@ const Latestnews = () => {
       category: "News, Recipes",
       title: "Love and food: It is all about spice",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...",
+        "Love and food go hand in hand — and it's all about the spice that brings warmth, excitement, and unforgettable memories to the table.",
       link: "#",
     },
   ];
+  
 
   return (
     <>

@@ -16,9 +16,9 @@ const Contact = () => {
           <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold tracking-wide animate-fade-in">
             CONTACT US
           </h1>
-        </div>
+        </div> 
       </section>
-      <div className="min-h-screen bg-black text-white flex items-center justify-center px-4 py-12">
+      <div className=" min-h-[500px] bg-black text-white flex items-center justify-center px-4 py-12">
         <div className="max-w-7xl w-full grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <p className="text-orange-500 font-semibold uppercase">
@@ -28,14 +28,10 @@ const Contact = () => {
               Where to Find Us
             </h2>
             <p className="text-gray-300">
-              The Patio Time Cafe is located on Silk Street, in the heart of
-              London city, on the edge of Soho. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Aenean commodo ligula eget dolor.
-              Aenean massa.
+              Patio Time Café is nestled on Silk Street, right in the vibrant heart of London, near the edge of Soho. Come experience our cozy atmosphere in one of the city's most iconic neighborhoods.
             </p>
             <p className="text-gray-400">
-              Cum sociis natoque penatibus et magnis dis parturient montes,
-              nascetur ridiculus mus. Donec quam felis, ultricies nec.
+            We’re surrounded by culture and charm—perfect for a relaxing coffee break or a night out. Stop by and see what makes us a favorite local spot.
             </p>
             <div className="space-y-2 text-sm">
               <p className="flex items-center gap-2">
@@ -68,7 +64,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black text-white py-16 px-4">
+      <div className="bg-black text-white py-16 px-4 text-center md:px-20 lg:px-40 ">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
           <div>
             <p className="text-orange-500 uppercase font-semibold">
