@@ -21,8 +21,6 @@ const TestimonialSlider = () => {
         backgroundPosition: 'center',
       }}
     >
-
-      {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         <FaQuoteLeft className="text-4xl text-orange-500 mx-auto mb-6" />
         <p className="text-xl md:text-2xl font-light leading-relaxed mb-6">

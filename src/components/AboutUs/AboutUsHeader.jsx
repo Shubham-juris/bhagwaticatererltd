@@ -10,7 +10,6 @@ const AboutUsHeader = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* Overlay for better readability */}
       <div className="absolute inset-0 bg-black/60" />
 
       <div className="relative z-10 px-4 text-center">
