@@ -8,7 +8,6 @@ export default function VisitReservation() {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 bg-black text-white">
-      {/* Visit Us Section */}
       <div
         className="relative h-96 md:h-auto overflow-hidden"
         onMouseEnter={() => setIsVisitHovered(true)}
@@ -47,7 +46,6 @@ export default function VisitReservation() {
         </div>
       </div>
 
-      {/* Reservation Section */}
       <div
         className="relative h-96 md:h-auto overflow-hidden"
         onMouseEnter={() => setIsReserveHovered(true)}

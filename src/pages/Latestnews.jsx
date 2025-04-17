@@ -36,7 +36,6 @@ const Latestnews = () => {
 
   return (
     <>
-      {/* Header Section */}
       <section className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] xl:h-[60vh] overflow-hidden flex items-center justify-center">
         <img
           src={img}
@@ -51,7 +50,6 @@ const Latestnews = () => {
         </div>
       </section>
 
-      {/* Blog Section */}
       <section className="bg-black text-white py-16 px-6 md:px-12 lg:px-20">
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
           {blogs.map((blog, idx) => (

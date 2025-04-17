@@ -20,7 +20,6 @@ const Contact = () => {
       </section>
       <div className="min-h-screen bg-black text-white flex items-center justify-center px-4 py-12">
         <div className="max-w-7xl w-full grid md:grid-cols-2 gap-8 items-center">
-          {/* Left Section - Text Content */}
           <div className="space-y-6">
             <p className="text-orange-500 font-semibold uppercase">
               Our Location
@@ -71,7 +70,6 @@ const Contact = () => {
       </div>
       <div className="bg-black text-white py-16 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
-          {/* Left - Contact Info */}
           <div>
             <p className="text-orange-500 uppercase font-semibold">
               Get in Touch
@@ -114,7 +112,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Right - Form */}
           <form className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input

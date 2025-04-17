@@ -66,7 +66,6 @@ const Ourmenu = () => {
 
   return (
     <>
-      {/* Header Section */}
       <section className="relative w-full h-[40vh] sm:h-[50vh] lg:h-[60vh] xl:h-[60vh] overflow-hidden flex items-center justify-center">
         <img
           src={img}
@@ -81,7 +80,6 @@ const Ourmenu = () => {
         </div>
       </section>
 
-      {/* Starters Section */}
       <div className="bg-black text-white px-6 md:px-20 py-16">
         <div className="grid md:grid-cols-2 gap-10 mt-10">
           <div className="grid grid-cols-2 gap-4">
@@ -122,8 +120,6 @@ const Ourmenu = () => {
             </div>
           </div>
         </div>
-
-        {/* Beverages Section */}
         <div className="grid md:grid-cols-2 gap-10 mt-28">
           <div>            
             <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
@@ -163,8 +159,6 @@ const Ourmenu = () => {
           </div>
         </div>
       </div>
-
-      {/* Main Courses Section */}
       <div className="min-h-screen bg-black text-white px-6 py-12 font-sans">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
           <div className="relative">
@@ -196,7 +190,6 @@ const Ourmenu = () => {
           </div>
         </div>
 
-        {/* Additional Starters Section */}
         <div className="grid md:grid-cols-2 gap-10 mt-20">
           <div className="grid grid-cols-2 gap-4">
             <img
