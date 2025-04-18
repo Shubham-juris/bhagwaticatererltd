@@ -4,7 +4,7 @@ import OurLocations from '../components/AboutUs/OurLocations'
 import OurMission from '../components/AboutUs/OurMession'
 import TestimonialSlider from '../components/AboutUs/TestimonialSlider'
 
-const AboutUsPage = () => {
+export default function AboutUsPage () {
   return (
     <>
     <AboutUsHeader/>
@@ -14,5 +14,3 @@ const AboutUsPage = () => {
     </>
   )
 }
-
-export default AboutUsPage;

@@ -2,13 +2,13 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Ourmenu from '../pages/Ourmenu'
 import Reservation from '../pages/Reservation'
-import Contact from '../pages/Contact'
 import Latestnews from '../pages/Latestnews'
 import AboutUsPage from '../pages/AboutUsPage'
 import Home from '../pages/Home'
+import ContactPage from '../pages/ContactPage'
 
 
-const Pageroutes = () => {
+export default function Pageroutes () {
   return (
     <>
       <Routes>
@@ -16,12 +16,10 @@ const Pageroutes = () => {
         <Route path='/about' element={<AboutUsPage/>}/>
         <Route path='/menu' element={<Ourmenu/>}/>
         <Route path='/Reservation' element={<Reservation/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Contact' element={<ContactPage/>}/>
         <Route path='/Latestnews' element={<Latestnews/>}/>
 
       </Routes>
     </>
   )
 }
-
-export default Pageroutes
