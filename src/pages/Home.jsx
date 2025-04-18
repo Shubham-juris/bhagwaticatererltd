@@ -54,7 +54,7 @@ export default function Home() {
         style={{
           backgroundImage: `url(${img})`,
         }}
-        
+         
       >
         <div className="absolute inset-0 bg-black/60" />
         <div className="absolute top-0 left-0 w-full h-full bg-opacity-60"></div>
