@@ -2,10 +2,10 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Ourmenu from '../pages/Ourmenu'
 import Reservation from '../pages/Reservation'
-import Latestnews from '../pages/Latestnews'
 import AboutUsPage from '../pages/AboutUsPage'
 import Home from '../pages/Home'
 import ContactPage from '../pages/ContactPage'
+import LatestnewsPage from '../pages/LatestnewsPage'
 
 
 export default function Pageroutes () {
@@ -17,7 +17,7 @@ export default function Pageroutes () {
         <Route path='/menu' element={<Ourmenu/>}/>
         <Route path='/Reservation' element={<Reservation/>}/>
         <Route path='/Contact' element={<ContactPage/>}/>
-        <Route path='/Latestnews' element={<Latestnews/>}/>
+        <Route path='/Latestnews' element={<LatestnewsPage/>}/>
 
       </Routes>
     </>
