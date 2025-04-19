@@ -3,7 +3,7 @@ import BgImg from "../../assets/AboutUs/Img.jpg";
 
 const AboutUsHeader = () => {
   return (
-    <section className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh] xl:h-[60vh] overflow-hidden flex items-center justify-center">
+    <section className="relative w-full  h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh] xl:h-[60vh] overflow-hidden flex items-center justify-center">
       <img
         src={BgImg}
         alt="About Us background"

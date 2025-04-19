@@ -6,7 +6,7 @@ import MENUS from "../../assets/restro/menu1.avif";
 const ReservationMenus = () => {
   return (
     <>
-      <div className="grid md:grid-cols-2 gap-10 mt-30">
+      <div className="grid md:grid-cols-2 justify-center mx-auto max-w-7xl gap-10 mt-30">
         <div className="grid grid-cols-2 gap-4">
           <img src={img1} alt="Dish 1" className="w-full h-80 object-cover mt-20" />
           <img src={img2} alt="Dish 2" className="w-full h-120 object-cover" />
@@ -25,7 +25,7 @@ const ReservationMenus = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-10 mt-30">
+      <div className="grid md:grid-cols-2 mx-auto justify-center max-w-7xl gap-10 mt-30">
         <div>
           <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
             <span>BEVERAGES</span>

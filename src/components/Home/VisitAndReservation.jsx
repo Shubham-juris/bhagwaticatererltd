@@ -7,9 +7,12 @@ export default function VisitReservation() {
   const [isReserveHovered, setIsReserveHovered] = useState(false);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 bg-black text-white">
+    <div className=" bg-black text-white">
+      <div className='max-w-7xl grid grid-cols-1 md:grid-cols-2 justify-center mx-auto'>
+
+      
       <div
-        className="relative h-96 md:h-auto overflow-hidden"
+        className="relative h-96 md:h-auto   overflow-hidden"
         onMouseEnter={() => setIsVisitHovered(true)}
         onMouseLeave={() => setIsVisitHovered(false)}
       >
@@ -83,6 +86,7 @@ export default function VisitReservation() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

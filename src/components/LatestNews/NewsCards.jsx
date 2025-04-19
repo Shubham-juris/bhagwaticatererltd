@@ -41,7 +41,7 @@ export default function NewsCards() {
   return (
     <>
     <section className="bg-black text-white py-16 px-6 md:px-12 lg:px-20">
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <div className="grid sm:grid-cols-2 justify-center max-w-7xl mx-auto md:grid-cols-3 gap-10">
         {blogs.map((blog, idx) => (
           <div
             key={idx}

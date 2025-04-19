@@ -68,7 +68,7 @@ const MenuSection = () => {
 
   return (
     <div className="bg-black text-white px-6 md:px-20 py-16">
-      <div className="grid md:grid-cols-2 gap-10 mt-10">
+      <div className="grid md:grid-cols-2 justify-center mx-auto max-w-7xl gap-10 mt-10">
         <div className="grid grid-cols-2 gap-4">
           <img
             src={img1}
@@ -106,9 +106,9 @@ const MenuSection = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-10 mt-28">
+      <div className="grid md:grid-cols-2 justify-center mx-auto max-w-7xl gap-10 mt-28">
         <div>
-          <h3 className="group relative text-orange-500 text-3xl font-semibold mb-6 pb-1 inline-block">
+          <h3 className="group relative text-orange-500 text-3xl font-semibold  mb-6 pb-1 inline-block">
             <span>BEVERAGES</span>
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-600 group-hover:w-0 transition-all duration-300 ease-in-out origin-left"></span>
           </h3>
@@ -144,7 +144,7 @@ const MenuSection = () => {
         </div>
       </div>
  
-      <div className="min-h-screen px-6 py-12 font-sans">
+      <div className="min-h-screen px-6 py-12 justify-center mx-auto max-w-7xl font-sans">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
           <div className="relative">
             <img
