@@ -4,7 +4,7 @@ import img2 from "../../assets/menu/Img11.avif";
 
 const StartersBeverages = () => {
   return (
-    <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="mt-20 grid grid-cols-1 justify-center mx-auto max-w-7xl  md:grid-cols-3 gap-8">
       <div className="bg-cover bg-center h-64 relative" style={{ backgroundImage: `url(${MENUS})` }}>
         <div className="absolute inset-0 bg-opacity-60 flex items-end p-4">
           <div>

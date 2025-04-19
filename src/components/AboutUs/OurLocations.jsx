@@ -30,6 +30,9 @@ const locations = [
 const OurLocations = () => {
   return (
     <section className="bg-black text-white py-20 px-6 md:px-12">
+      <div className="flex flex-col max-w-7xl justify-center mx-auto">
+
+     
       <div className="text-center mb-16">
         <p className="text-orange-500 uppercase tracking-widest text-sm mb-2 relative inline-block before:absolute before:w-12 before:h-[1px] before:bg-orange-500 before:-left-16 before:top-1/2 after:absolute after:w-12 after:h-[1px] after:bg-orange-500 after:-right-16 after:top-1/2">
           Visit the restaurant
@@ -50,6 +53,7 @@ const OurLocations = () => {
             </button>
           </div>
         ))}
+      </div>
       </div>
     </section>
   );
