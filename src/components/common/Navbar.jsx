@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="absolute top-0 left-0 w-full z-20 flex justify-center mx-auto  items-center px-6 xl:px-20 py-4 h-20 bg-black bg-opacity-90 text-white">
         <div className="flex justify-between items-center w-full max-w-screen-xl">
         <div className="text-3xl font-bold flex items-center h-full">
-          <a className="hover:text-orange-300 text-orange-500" href="/">
+          <a className="text-orange-500" href="/">
             Bhagwati <span className="text-white">Caterer</span>
           </a>
         </div>
