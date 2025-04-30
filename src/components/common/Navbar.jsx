@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
+import logo from '../../assets/home/logo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,8 @@ const Navbar = () => {
       <nav className="absolute top-0 left-0 w-full z-20 flex justify-center mx-auto  items-center px-6 xl:px-20 py-4 h-20 bg-black bg-opacity-90 text-white">
         <div className="flex justify-between items-center w-full max-w-screen-xl">
         <div className="text-3xl font-bold flex items-center h-full">
-          <a className="text-orange-500" href="/">
+          <a className="text-orange-500 flex item-center text-2xl md:4xl justify-center gap-2" href="/">
+          <img src={logo} className="hidden md:block w-10 h-10" alt="" />
             Bhagwati <span className="text-white">Caterer</span>
           </a>
         </div>
