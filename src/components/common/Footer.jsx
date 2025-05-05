@@ -28,7 +28,10 @@ const Footer = () => {
             <FaYoutube />
           </a>
         </div>
+<p>
 
+
+Address – 0, Koliwada S Khadki, Gandhi Road, Ahmedabad, Gujarat. Pin – 380001</p>
         <ul className="flex flex-wrap justify-center gap-6 text-sm font-light">
           <li><a href="#" className="hover:text-orange-500">About</a></li>
           <li><a href="#" className="hover:text-orange-500">Reservation</a></li>
