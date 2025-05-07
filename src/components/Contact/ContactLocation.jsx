@@ -24,7 +24,7 @@ export default function ContactLocation() {
                 <span>📞</span> 982403193
               </p>
               <p className="flex items-center gap-2">
-                <span>📧</span> booking@patiotime.com
+                <span>📧</span> www.bhagwaticaterer.com
 
               </p>
             </div>

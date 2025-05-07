@@ -4,25 +4,25 @@ const locations = [
   {
     city: "London",
     address: "Silk St, Barbican, London EC2Y 8DS",
-    email: "booking@patiotime.com",
+    email: "www.bhagwaticaterer.com",
     phone: "+39 055 123 4567",
   },
   {
     city: "Florence",
     address: "Silk St, Barbican, London EC2Y 8DS",
-    email: "booking@patiotime.com",
+    email: "www.bhagwaticaterer.com",
     phone: "+39 055 123 4567",
   },
   {
     city: "New York",
     address: "Silk St, Barbican, London EC2Y 8DS",
-    email: "booking@patiotime.com",
+    email: "www.bhagwaticaterer.com",
     phone: "+39 055 123 4567",
   },
   {
     city: "Manhattan",
     address: "Silk St, Barbican, London EC2Y 8DS",
-    email: "booking@patiotime.com",
+    email: "www.bhagwaticaterer.com",
     phone: "+39 055 123 4567",
   },
 ];

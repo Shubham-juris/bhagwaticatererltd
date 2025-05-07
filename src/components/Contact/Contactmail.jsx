@@ -9,22 +9,14 @@ export default function Contactmail() {
             <h2 className="text-4xl font-bold mb-6 mt-2">Contact Us</h2>
 
             <div className="space-y-4 text-gray-300 text-sm">
-              <p>
-                For general enquiries please email:{" "}
-                <a
-                  href="mailto:info@patiotime.com"
-                  className="text-white underline"
-                >
-                  info@patiotime.com
-                </a>
-              </p>
+             
               <p>
                 Reserve by email:{" "}
                 <a
-                  href="mailto:booking@patiotime.com"
+                  href="mailto:www.bhagwaticaterer.com"
                   className="text-white underline"
                 >
-                  booking@patiotime.com
+                  www.bhagwaticaterer.com
                 </a>
               </p>
               <p>

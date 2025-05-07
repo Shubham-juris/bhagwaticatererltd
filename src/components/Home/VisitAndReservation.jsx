@@ -73,7 +73,7 @@ export default function VisitReservation() {
           </p>
           <div className="mt-6">
             <h3 className="uppercase text-sm font-bold mb-2">Booking</h3>
-            <p className="text-sm mb-1">Email: booking@patiotime.com</p>
+            <p className="text-sm mb-1">www.bhagwaticaterer.com</p>
             <p className="text-sm">Call us: 982403193</p>
           </div>
           <div className="mt-8">
