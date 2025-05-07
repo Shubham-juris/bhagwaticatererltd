@@ -8,7 +8,6 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-
   return (
     <div className="relative z-50 justify-center mx-auto">
       <nav className="absolute top-0 left-0 w-full z-20 flex justify-center mx-auto  items-center px-6 xl:px-20 py-4 h-20 bg-black bg-opacity-90 text-white">
