@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
-import logo from '../../assets/home/img.jpg'
+import logo from '../../assets/home/Bhagwati.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-  
+
 
   return (
     <div className="relative z-50 justify-center mx-auto">
@@ -24,6 +24,7 @@ const Navbar = () => {
           <li>
             <Link to="/" className="hover:text-orange-500">HOME</Link>
           </li>
+
           <li>
             <Link to="/about" className="hover:text-orange-500">ABOUT</Link>
           </li>
