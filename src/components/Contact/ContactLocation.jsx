@@ -8,7 +8,7 @@ export default function ContactLocation() {
               Our Location
             </p>
             <h2 className="text-4xl md:text-5xl font-serif font-bold">
-              Where to Find Us
+              Where to Find Us  
             </h2>
             <p className="text-gray-300">
               Patio Time Café is nestled on Silk Street, right in the vibrant heart of London, near the edge of Soho. Come experience our cozy atmosphere in one of the city's most iconic neighborhoods.
@@ -25,7 +25,7 @@ export default function ContactLocation() {
               </p>
               <p className="flex items-center gap-2">
                 <span>📧</span> booking@patiotime.com
-                
+
               </p>
             </div>
             <a
