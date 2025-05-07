@@ -18,10 +18,10 @@ export default function ContactLocation() {
             </p>
             <div className="space-y-2 text-sm">
               <p className="flex items-center gap-2">
-                <span>📍</span> Silk St, Barbican, London EC2Y 8DS, UK
+                <span>📍</span> Address – 0, Koliwada S Khadki, Gandhi Road, Ahmedabad, Gujarat. Pin – 38000
               </p>
               <p className="flex items-center gap-2">
-                <span>📞</span> +39-055-123456
+                <span>📞</span> 982403193
               </p>
               <p className="flex items-center gap-2">
                 <span>📧</span> booking@patiotime.com

@@ -31,7 +31,7 @@ export default function VisitReservation() {
           </p>
           <h2 className="text-4xl font-serif mb-6">VISIT US</h2>
           <p className="text-sm mb-4 max-w-md">
-            Northern end of the Overseas Passenger Terminal, Circular Quay, Sydney NSW 2000, Australia
+          0, Koliwada S Khadki, Gandhi Road, <br/>Ahmedabad, Gujarat. Pin – 38000
           </p>
           <div className="mt-6">
             <h3 className="uppercase text-sm font-bold mb-2">Open Hours</h3>
@@ -74,7 +74,7 @@ export default function VisitReservation() {
           <div className="mt-6">
             <h3 className="uppercase text-sm font-bold mb-2">Booking</h3>
             <p className="text-sm mb-1">Email: booking@patiotime.com</p>
-            <p className="text-sm">Call us: +39 055 1234567</p>
+            <p className="text-sm">Call us: 982403193</p>
           </div>
           <div className="mt-8">
             <button

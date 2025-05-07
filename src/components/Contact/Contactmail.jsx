@@ -30,7 +30,7 @@ export default function Contactmail() {
               <p>
                 Tel:{" "}
                 <a href="tel:+390551234567" className="text-white underline">
-                  +39 055 1234567
+                  982403193
                 </a>
               </p>
               <div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
-import logo from '../../assets/home/Finallogo.png'
+import logo from '../../assets/home/Newlogo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,11 +43,11 @@ const Navbar = () => {
         <div className="hidden xl:flex items-center gap-6 text-md px-4 py-2 rounded-xl">
           <div className="transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
             <a
-              href="tel:+39055123456"
+              href="tel:982403193"
               className="inline-flex items-center gap-2 px-6 py-2 text-white rounded-xl bg-orange-500 hover:bg-orange-600 shadow-xl"
             >
               <Phone size={16} />
-              +39055123456
+              982403193
             </a>
           </div>
         </div>
