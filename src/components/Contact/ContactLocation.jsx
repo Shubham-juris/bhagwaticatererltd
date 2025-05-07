@@ -25,6 +25,7 @@ export default function ContactLocation() {
               </p>
               <p className="flex items-center gap-2">
                 <span>📧</span> booking@patiotime.com
+                
               </p>
             </div>
             <a
