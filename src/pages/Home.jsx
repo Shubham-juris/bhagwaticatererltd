@@ -65,7 +65,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-8xl font-serif italic">Welcome to</h2>
               <h1 className="text-5xl md:text-7xl font-serif mb-5 font-bold">
                 <span className="text-orange-600">Bhagwati</span>{" "}
-                <span className="text-white">Caterer</span>
+                <span className="text-white">Caterers</span>
               </h1>
               <p className="w-full justify-start flex text-lg md:text-xl mt-6 max-w-2xl ">
                 We serve food, harmony, and laughter. Making delicious food and

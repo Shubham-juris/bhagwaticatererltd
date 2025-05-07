@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="text-3xl font-bold flex items-center h-full">
           <a className="text-orange-500 flex item-center text-2xl md:4xl justify-center gap-2" href="/">
           <img src={logo} className="hidden md:block w-10 h-10" alt="" />
-            Bhagwati <span className="text-white">Caterer</span>
+            Bhagwati <span className="text-white">Caterers</span>
           </a>
         </div>
 
