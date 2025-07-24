@@ -6,7 +6,7 @@ import userImg from "../../assets/AboutUs/Img.jpg";
 const TestimonialSlider = () => {
   const testimonial = {
     quote:
-      "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Quisque rutrum aenean leo ligula. Nulla consequat massa quis enim.",
+      "At Patiotime Cafe, every dish is a reflection of our love for quality food and exceptional service. It's not just about taste, it's about creating experiences that linger long after the last bite.",
     name: "Patio Time",
     title: "Cafe Owner",
     img: userImg,
@@ -21,6 +21,8 @@ const TestimonialSlider = () => {
         backgroundPosition: 'center',
       }}
     >
+      <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
+
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         <FaQuoteLeft className="text-4xl text-orange-500 mx-auto mb-6" />
         <p className="text-xl md:text-2xl font-light leading-relaxed mb-6">
@@ -32,8 +34,6 @@ const TestimonialSlider = () => {
             alt={testimonial.name}
             className="w-16 h-16 rounded-full object-cover border-2 border-white shadow-lg mb-3"
           />
-          <h4 className="text-lg font-semibold">{testimonial.name}</h4>
-          <span className="text-sm text-gray-300">{testimonial.title}</span>
         </div>
       </div>
     </section>

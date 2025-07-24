@@ -4,7 +4,6 @@ import Img from "../../assets/AboutUs/OurMission.jpg";
 import bgImg from "../../assets/AboutUs/Img.jpg";
 import img2 from "../../assets/menu/menu2.avif";
 
-
 const LineWithStars = ({ orientation = "vertical", height = "h-64", width = "w-1.5" }) => (
   <div className={`flex ${orientation === "vertical" ? "flex-col" : "flex-row"} items-center justify-center`}>
     <FaStarOfLife className="text-gray-500 mb-1" />
@@ -27,14 +26,11 @@ const OurMission = () => {
         backgroundPosition: 'center',
       }}
     >
- 
       <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
 
       <div className="relative z-10 max-w-screen-xl mx-auto space-y-24">
-
-     
+        {/* Our Mission */}
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14">
-      
           <div className="w-full md:w-1/2 flex justify-center md:justify-start">
             <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg max-w-[400px] w-full aspect-square">
               <img
@@ -45,12 +41,10 @@ const OurMission = () => {
             </div>
           </div>
 
-          
           <div className="hidden md:flex">
             <LineWithStars height="h-120" width="w-1" />
           </div>
 
-     
           <div className="w-full md:w-1/2 space-y-4 text-center md:text-left">
             <p className="text-orange-500 uppercase tracking-wider text-sm">
               About Patiotime Cafe
@@ -59,7 +53,7 @@ const OurMission = () => {
               Our Mission
             </h2>
             <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
-              Food is the foundation of true happiness. Lorem ipsum dolor sit amet, consectetur adipiscing elit aenean commodo.
+              At Patiotime Cafe, we believe that food is the essence of joy and connection. Our mission is to serve delicious meals crafted with passion, using the freshest ingredients, to create moments that bring people together.
             </p>
             <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
               We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.
@@ -72,9 +66,8 @@ const OurMission = () => {
           </div>
         </div>
 
-     
+        {/* Our Philosophy */}
         <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-14">
-      
           <div className="w-full md:w-1/2 space-y-4 text-center md:text-left">
             <p className="text-orange-500 uppercase tracking-wider text-sm">
               Fabulous Taste Journey
@@ -95,12 +88,10 @@ const OurMission = () => {
             </div>
           </div>
 
-     
           <div className="hidden md:flex">
             <LineWithStars height="h-120" width="w-1" />
           </div>
 
-          
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="rounded-[45%_45%_0_0] overflow-hidden shadow-lg max-w-[400px] w-full aspect-square">
               <img
